@@ -1,0 +1,11 @@
+const ADD = "ADD_ITEM_TO_CART";
+const DELETE = "DELETE_ITEM_FROM_CART";
+const FILTER = "FILTER_ITEM_FROM_PRODUCT";
+const SORT = "SORTING_ITEM_FROM_PRODUCT";
+
+export default {
+    ADD,
+    DELETE,
+    FILTER,
+    SORT
+};

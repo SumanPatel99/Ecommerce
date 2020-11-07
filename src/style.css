@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .container button{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .container button:hover{
+    background: #EF890F;
+  }
+  .row {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .cart-item{
+    list-style: none;
+    float: left;
+    width: calc(33.3%-15px);
+    display: grid;
+    margin-left: 120px;
+    padding-left: 15px;
+    grid-template-columns:auto auto auto;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .list-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  input{
+    align-content: center;
+  }
+  .filter{
+
+    margin-right: 100px;
+    padding-left: 15px;
+  }
+  .add_to_cart{
+    float:right;
+    border: 1px solid;
+  }
+  .sort p{
+    text-align: center;
+    font-style: normal;
+    text-align:center;
+    font-size: 50px;
+  }
+  .cart_tab{
+    border: 1px;
+    margin-right: 80px;
+    margin-left: 50px;
+    padding: 20px;
+  }
+  .filter p{
+    font-size: 40px;
+    text-align: center;
+  }
+  .filter button{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .filter button:hover{
+    background:#EF890E;
+  }
+  .sort_item{
+    background:lightgrey;
+    padding: 15px;
+    text-align: center;
+    text-decoration: lightblue;
+    font-size: 14px;
+    margin-left:20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
